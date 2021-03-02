@@ -1,0 +1,6 @@
+.content{
+    display: grid;
+}
+.header{
+    place-items: center;
+}
