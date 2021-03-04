@@ -1,6 +1,45 @@
 .content{
     display: grid;
 }
-.header{
-    place-items: center;
+.card-body{
+width: 800px;
+padding-top: 30px;
+padding-bottom: 30px;
+}
+.research{
+padding-top: 25px;
+padding-bottom: 25px;
+}
+.text-center{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.image{
+    float: right;
+}
+.description1{
+    margin-top: 15px;
+}
+.icon:hover{
+    animation: bounce 1s linear;
+   }
+   @keyframes bounce{
+   20%,50%,80%, to{
+    transform: translateY(0);
+   }
+   40%{
+    transform: translateY(-30px);
+   }
+   70%{
+    transform: translateY(-15px);
+   }
+   90%{
+    transform: translateY(-4px);
+   }  
+}
+.text{
+    padding-left: 50px;
+}
+footer{
+    padding-bottom: 20px;
 }
